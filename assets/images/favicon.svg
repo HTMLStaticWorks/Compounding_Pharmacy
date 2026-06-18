@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0D9488;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <circle cx="50" cy="50" r="48" fill="url(#brandGrad)" />
+  <!-- Compounding flask vector layout with liquid level -->
+  <path d="M70 78H30C28.3 78 27 76.7 27 75C27 74.4 27.2 73.8 27.5 73.3L41.5 48V31H37V25H63V31H58.5V48L72.5 73.3C72.8 73.8 73 74.4 73 75C73 76.7 71.7 78 70 78ZM32.3 72H67.7L56 52V31H44V52L32.3 72ZM38 61H62L57 53H43Z" fill="#0A292D" />
+</svg>

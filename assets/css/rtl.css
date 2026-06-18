@@ -1,0 +1,74 @@
+/* ============================================================
+   CASCARA LUXE — RTL (Right-to-Left) Styles
+   ============================================================ */
+
+[dir="rtl"] {
+    direction: rtl;
+    text-align: right;
+}
+
+[dir="rtl"] .nav-desktop,
+[dir="rtl"] .header-actions,
+[dir="rtl"] .mobile-actions {
+    flex-direction: row !important;
+}
+
+[dir="rtl"] .header-actions .btn-primary { 
+    margin-right: 0.5rem !important; 
+    margin-left: 0 !important; 
+}
+
+[dir="rtl"] .header-actions .hamburger { 
+    margin-left: 0.5rem !important; 
+    margin-right: 0 !important; 
+}
+
+[dir="rtl"] .hero-stat-num {
+    text-align: right;
+}
+
+[dir="rtl"] .about-floater {
+    right: auto;
+    left: -1.5rem;
+}
+
+[dir="rtl"] .about-img-accent {
+    right: auto;
+    left: -2rem;
+}
+
+[dir="rtl"] .product-badge {
+    left: auto;
+    right: 1rem;
+}
+
+[dir="rtl"] .form-select {
+    background-position: left 1.25rem center !important;
+    padding-left: 2.75rem !important;
+    padding-right: 1rem !important;
+}
+
+[dir="rtl"] .back-to-top {
+    right: auto !important;
+    left: 2rem !important;
+    transform: translateY(20px);
+}
+
+[dir="rtl"] .back-to-top.show {
+    transform: translateY(0);
+}
+
+[dir="rtl"] .footer-bottom-links {
+    padding-right: 0 !important;
+    padding-left: 4.5rem !important;
+}
+
+[dir="rtl"] .auth-toggles {
+    right: auto !important;
+    left: 2rem !important;
+}
+
+[dir="rtl"] .password-toggle {
+    right: auto !important;
+    left: 0.75rem !important;
+}

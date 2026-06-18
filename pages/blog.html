@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — CompoundRx Pharmacy</title>
+  <link rel="icon" href="../assets/images/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="../assets/images/favicon.png" type="image/png" />
+
+  <link rel="apple-touch-icon" href="../assets/images/favicon.png" />
+  
+  <link rel="stylesheet" href="../assets/css/style.css" />
+  <link rel="stylesheet" href="../assets/css/dark-mode.css" />
+  <link rel="stylesheet" href="../assets/css/rtl.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" />
+</head>
+<body>
+
+
+<header class="header">
+  <div class="header-inner">
+    <a href="../index.html" class="brand">
+      <div class="brand-logo"><i class="ri-flask-line"></i></div>
+      <div><span class="brand-name">CompoundRx <span>Pharmacy</span></span></div>
+    </a>
+    <nav class="nav-desktop">
+      <a href="../index.html" class="nav-link">Home</a>
+      <a href="home2.html" class="nav-link">Home 2</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="doctors.html" class="nav-link">Prescribers</a>
+      <a href="shop.html" class="nav-link">Compounds</a>
+      <a href="blog.html" class="nav-link active">Blog</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn theme-toggle"><i class="ri-moon-line"></i></button>
+      <button class="icon-btn rtl-toggle" aria-label="Toggle RTL" title="Toggle Direction">RTL</button>
+      <a href="login.html" class="btn btn-primary btn-sm"><i class="ri-user-line"></i> Login</a>
+      <button class="hamburger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+<div class="mobile-menu">
+  <a href="../index.html" class="mobile-nav-link">Home</a>
+  <a href="home2.html" class="mobile-nav-link">Home 2</a>
+  <a href="about.html" class="mobile-nav-link">About</a>
+  <a href="doctors.html" class="mobile-nav-link">Prescribers</a>
+  <a href="shop.html" class="mobile-nav-link">Compounds</a>
+  <a href="blog.html" class="mobile-nav-link active">Blog</a>
+  <a href="contact.html" class="mobile-nav-link">Contact</a>
+  <div class="mobile-actions">
+    <button class="icon-btn theme-toggle" aria-label="Theme"><i class="ri-moon-line"></i></button>
+    <button class="icon-btn rtl-toggle" aria-label="RTL">RTL</button>
+    <a href="login.html" class="btn btn-primary btn-sm"><i class="ri-user-line"></i> Login</a>
+  </div>
+</div>
+
+<main>
+  <!-- Hero -->
+  <section class="page-hero" style="padding-top:calc(var(--header-h) + 3rem)">
+    <div class="container">
+      <span class="section-label" style="color:var(--gold-light)">Clinical Research</span>
+      <h1>The Compounding <em style="font-style:italic;color:var(--gold-light)">Journal</em></h1>
+      <p>Research updates from our sterile lab, pediatric compliance protocols, bioidentical hormone science, and custom therapeutics.</p>
+    </div>
+  </section>
+
+  <!-- ── SECTION 1: Featured Posts ── -->
+  <section class="blog-section" style="background:var(--bg-primary)" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Latest Articles</span>
+        <h2 class="section-title">Fresh From the <em style="font-style:italic;color:var(--gold)">Lab</em></h2>
+        <div class="divider-gold"></div>
+      </div>
+      <div class="blog-filter">
+        <button class="filter-btn active" data-category="all">All Articles</button>
+        <button class="filter-btn" data-category="dermatology">Dermatology</button>
+        <button class="filter-btn" data-category="hrt">HRT (BHRT)</button>
+        <button class="filter-btn" data-category="pediatrics">Pediatrics</button>
+        <button class="filter-btn" data-category="safety">Lab Safety</button>
+      </div>
+      <div class="blog-grid">
+        <div class="blog-card reveal reveal-delay-1" data-category="hrt">
+          <div class="blog-card-img-wrap">
+            <img src="https://theovacare.com/wp-content/uploads/2025/03/Hormones-2.png" alt="Hormone Sourcing" class="blog-card-img" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta"><span class="blog-tag">HRT</span><i class="ri-calendar-line"></i>Dec 12, 2024<i class="ri-time-line"></i>6 min</div>
+            <h3>Why Transdermal Gels Improve HRT Safety Outcomes</h3>
+            <p>How bioidentical hormone replacement therapy (BHRT) creams bypass first-pass liver metabolism, yielding more stable blood serum levels.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="blog-card reveal reveal-delay-2" data-category="pediatrics">
+          <div class="blog-card-img-wrap">
+            <img src="https://vicihealthsciences.com/wp-content/uploads/2025/02/dreamstime_xxl_36942933-scaled.jpg" alt="Pediatric Compounding" class="blog-card-img" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta"><span class="blog-tag">Pediatrics</span><i class="ri-calendar-line"></i>Nov 28, 2024<i class="ri-time-line"></i>8 min</div>
+            <h3>Flavor Masking & Compliance in Pediatric Liquids</h3>
+            <p>Compounding child-friendly liquid formulations using natural taste-masking components to improve treatment compliance in pediatric care.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="blog-card reveal reveal-delay-3" data-category="safety">
+          <div class="blog-card-img-wrap">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRF5UkESsQ9-uNe6MreckUFL93ZTkYdKpJ2HqsRPBOZkx0qsgjIPjo5lHE&s=10" alt="Sterile Lab Standards" class="blog-card-img" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta"><span class="blog-tag">Lab Safety</span><i class="ri-calendar-line"></i>Nov 14, 2024<i class="ri-time-line"></i>5 min</div>
+            <h3>The Sterility Standards of USP &lt;797&gt; Cleanrooms</h3>
+            <p>An inside look at validation protocols, HEPA filter particulate thresholds, and testing procedures inside our sterile drug laboratory.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="blog-card reveal reveal-delay-1" data-category="dermatology">
+          <div class="blog-card-img-wrap">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThedXIiKipEq3UhJSbeobd-v1JldGD_OFXc0vw8N3rfxw6iQCxR3kdRwk&s=10" alt="Dermatology Custom Gels" class="blog-card-img" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta"><span class="blog-tag">Dermatology</span><i class="ri-calendar-line"></i>Oct 30, 2024<i class="ri-time-line"></i>4 min</div>
+            <h3>Personalized Acne Solutions with Gels-T</h3>
+            <p>Reviewing clinical cases where custom-compounded topical gels incorporating niacinamide, salicylic acid, and tretinoin skin.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="blog-card reveal reveal-delay-2" data-category="safety">
+          <div class="blog-card-img-wrap">
+            <img src="https://mycompounding.com.au/wp-content/uploads/2024/08/Compounding-Allergies.jpg" alt="Allergen-Free Formulation" class="blog-card-img" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta"><span class="blog-tag">Lab Safety</span><i class="ri-calendar-line"></i>Oct 15, 2024<i class="ri-time-line"></i>7 min</div>
+            <h3>Allergen-Free Compounding</h3>
+            <p>A deep dive into custom base ingredients that avoid chemical triggers, providing allergen-free and preservative-free pharmaceutical bases.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+        <div class="blog-card reveal reveal-delay-3" data-category="dermatology">
+          <div class="blog-card-img-wrap">
+            <img src="https://dermaltherapy.com.au/wp-content/uploads/2023/10/Scar-Treatment-Silicone-Gel-scar-cream.jpg" alt="Scar Therapy Gels" class="blog-card-img" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-meta"><span class="blog-tag">Dermatology</span><i class="ri-calendar-line"></i>Sep 28, 2024<i class="ri-time-line"></i>9 min</div>
+            <h3>Scar Therapy Gels: Role of Silicones</h3>
+            <p>Evaluating transdermal silicone gels customized with high-potency APIs for hypertrophic scar management and post-surgical skin healing.</p>
+            <a href="#" class="blog-read-more">Read Article <i class="ri-arrow-right-line"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 2: Featured / Highlight ── -->
+  <section class="section reveal" style="background:var(--bg-secondary)">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Pharmacist Pick</span>
+        <h2 class="section-title">This Month's <em style="font-style:italic;color:var(--gold)">Spotlight</em></h2>
+        <div class="divider-gold"></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-xl);overflow:hidden" class="reveal spotlight-inner">
+        <img src="https://knowleswellness.com/wp-content/uploads/2023/04/Inscription.webp"
+             alt="Compounding Process Guide" style="width:100%;height:380px;object-fit:cover" loading="lazy" />
+        <div class="spotlight-content" style="padding:2.5rem 2.5rem 2.5rem 0;text-align:center">
+          <span class="blog-tag" style="display:inline-block;margin-bottom:1rem">Guide</span>
+          <h2 style="font-family:var(--font-display);font-size:clamp(1.5rem,2.5vw,2.2rem);margin-bottom:1rem">Physician's Compounding Guide: Formulations, Regulations & prescribing</h2>
+          <p style="margin-bottom:1.5rem">Our definitive guide for healthcare providers on writing compounding prescriptions, navigating FDA regulatory exclusions, and selecting base carriers.</p>
+          <div class="blog-meta" style="justify-content:center;margin-bottom:1.5rem"><i class="ri-calendar-line"></i>January 2025<i class="ri-time-line"></i>15 min read</div>
+          <a href="#" class="btn btn-primary">Read Full Guide <i class="ri-book-open-line"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ── SECTION 3: Newsletter ── -->
+  <section class="section reveal" style="background:var(--bg-primary)">
+    <div class="container container--sm">
+      <div class="section-header">
+        <span class="section-label">Stay Informed</span>
+        <h2 class="section-title">Join our Clinical <em style="font-style:italic;color:var(--gold)">Newsletter</em></h2>
+        <div class="divider-gold"></div>
+        <p class="section-subtitle">Monthly research summaries, regulatory updates, and new formulation guidelines — sent to healthcare professionals.</p>
+      </div>
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-xl);padding:3rem;max-width:540px;margin:0 auto;text-align:center" class="reveal">
+        <i class="ri-mail-send-line" style="font-size:3rem;color:var(--gold);margin-bottom:1.5rem;display:block"></i>
+        <h3 style="font-family:var(--font-display);font-size:1.6rem;color:var(--text-primary);margin-bottom:0.5rem">Subscribe to the Lab Digest</h3>
+        <p style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:2rem">Delivered to 12,000+ providers and pharmacies monthly.</p>
+        <form id="newsletter-form" class="newsletter-form" style="display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center">
+          <input type="email" class="form-input" placeholder="Your clinical email address" style="flex:1;min-width:200px;background:var(--bg-secondary);border-color:var(--border);color:var(--text-primary)" required />
+          <button type="submit" class="btn btn-primary">Subscribe <i class="ri-arrow-right-line"></i></button>
+        </form>
+        <p style="font-size:0.75rem;color:var(--text-muted);margin-top:1rem;text-align:center">Strictly professional updates. Unsubscribe anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 3: FAQ ── -->
+    <section class="section reveal">
+      <div class="container container--sm">
+        <div class="section-header">
+          <span class="section-label">FAQ</span>
+          <h2 class="section-title">Common <em style="font-style:italic;color:var(--gold)">Questions</em></h2>
+          <div class="divider-gold"></div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:1rem">
+          <details
+            style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);padding:1.5rem;cursor:pointer;transition:all 0.3s ease"
+            class="faq-item">
+            <summary
+              style="font-family:var(--font-display);font-size:1.1rem;font-weight:500;list-style:none;display:flex;justify-content:space-between;align-items:center">
+              What is the typical turnaround time for custom formulations?
+              <i class="ri-add-line" style="color:var(--gold);flex-shrink:0"></i>
+            </summary>
+            <p style="margin-top:1rem;font-size:0.9rem">Most custom compounded medications are prepared, checked for dosage accuracy, and verified in our laboratory within 24 to 48 hours. Shipping takes an additional 1-3 business days depending on delivery selection.</p>
+          </details>
+          <details
+            style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);padding:1.5rem;cursor:pointer"
+            class="faq-item">
+            <summary
+              style="font-family:var(--font-display);font-size:1.1rem;font-weight:500;list-style:none;display:flex;justify-content:space-between;align-items:center">
+              Do you accept insurance for compounded medications?
+              <i class="ri-add-line" style="color:var(--gold);flex-shrink:0"></i>
+            </summary>
+            <p style="margin-top:1rem;font-size:0.9rem">While many insurance providers offer compounding coverage, it varies. We provide detailed universal claim forms (reimbursement receipts) containing specific drug codes for direct patient reimbursement submissions.</p>
+          </details>
+          <details
+            style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);padding:1.5rem;cursor:pointer"
+            class="faq-item">
+            <summary
+              style="font-family:var(--font-display);font-size:1.1rem;font-weight:500;list-style:none;display:flex;justify-content:space-between;align-items:center">
+              How can my clinical practice submit prescriptions?
+              <i class="ri-add-line" style="color:var(--gold);flex-shrink:0"></i>
+            </summary>
+            <p style="margin-top:1rem;font-size:0.9rem">Clinicians can locate 'CompoundRx' in their standard EHR directory to prescribe electronically, fax completed prescription forms to +1-800-555-0124, or upload scans through this contact portal.</p>
+          </details>
+          <details
+            style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-md);padding:1.5rem;cursor:pointer"
+            class="faq-item">
+            <summary
+              style="font-family:var(--font-display);font-size:1.1rem;font-weight:500;list-style:none;display:flex;justify-content:space-between;align-items:center">
+              Are your active compounding ingredients FDA-approved?
+              <i class="ri-add-line" style="color:var(--gold);flex-shrink:0"></i>
+            </summary>
+            <p style="margin-top:1rem;font-size:0.9rem">We source all raw active pharmaceutical ingredients (APIs) from FDA-registered and regulated chemical distributors. Every component is accompanied by a certified CoA verifying chemical purity.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="../index.html" class="brand"><div class="brand-logo"><i class="ri-flask-line"></i></div><div class="brand-name">CompoundRx <span>Pharmacy</span></div></a>
+        <p class="footer-desc">Professional compounding pharmacy specializing in custom-formulated medications for healthcare providers and their patients.</p>
+        <div class="footer-socials">
+          <a href="#" class="footer-social" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+          <a href="#" class="footer-social" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+          <a href="#" class="footer-social" aria-label="LinkedIn"><i class="ri-linkedin-line"></i></a>
+          <a href="#" class="footer-social" aria-label="YouTube"><i class="ri-youtube-line"></i></a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">Services</div>
+        <div class="footer-links">
+          <a href="shop.html" class="footer-link">Custom Dosage Forms</a>
+          <a href="shop.html" class="footer-link">Specialty Compounds</a>
+          <a href="shop.html" class="footer-link">Allergy-Free Options</a>
+          <a href="shop.html" class="footer-link">Clinical Consultation</a>
+          <a href="shop.html" class="footer-link">Emergency Orders</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">Company</div>
+        <div class="footer-links">
+          <a href="about.html" class="footer-link">About Us</a>
+          <a href="home2.html" class="footer-link">Prescriptions</a>
+          <a href="about.html" class="footer-link">Quality Standards</a>
+          <a href="contact.html" class="footer-link">Contact</a>
+          <a href="contact.html" class="footer-link">Support</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-title">Contact</div>
+        <div class="footer-links">
+          <div class="footer-contact-item"><i class="ri-map-pin-line"></i><span>456 Medical Center Drive, Suite 200, New York, NY 10001</span></div>
+          <div class="footer-contact-item"><i class="ri-phone-line"></i><span>+1-800-555-0123</span></div>
+          <div class="footer-contact-item"><i class="ri-mail-line"></i><span>submit@compoundrx.com</span></div>
+          <div class="footer-contact-item"><i class="ri-time-line"></i><span>Mon–Fri: 8am – 6pm EST</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 CompoundRx Pharmacy. All rights reserved.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookie Policy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/js/main.js"></script>
+<script>
+document.getElementById('newsletter-form')?.addEventListener('submit', e => {
+  e.preventDefault();
+  const btn = e.target.querySelector('button');
+  btn.textContent = '✓ Subscribed!';
+  btn.style.background = 'var(--espresso)';
+  btn.style.color = 'var(--gold)';
+  setTimeout(() => { btn.innerHTML = 'Subscribe <i class="ri-arrow-right-line"></i>'; btn.style.background = ''; btn.style.color = ''; e.target.reset(); }, 3000);
+});
+</script>
+</body>
+</html>
