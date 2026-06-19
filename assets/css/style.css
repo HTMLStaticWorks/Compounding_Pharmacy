@@ -1781,6 +1781,64 @@ main {
   }
 }
 
+/* ── Provider Guidelines Card ───────────────────────────── */
+.provider-guidelines-card {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: 2.5rem;
+  margin-top: 3.5rem;
+  text-align: center;
+  border: 1px solid var(--border);
+  transition: var(--transition);
+}
+
+.provider-guidelines-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: rgba(13, 148, 136, 0.4);
+}
+
+.provider-guidelines-card h3 {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.provider-guidelines-card p {
+  max-width: 550px;
+  margin: 0 auto 1.5rem;
+  color: var(--text-secondary);
+}
+
+.provider-guidelines-card .btn {
+  display: inline-flex;
+}
+
+@media (max-width: 768px) {
+  .provider-guidelines-card {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .provider-guidelines-card {
+    padding: 1.5rem 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .provider-guidelines-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .provider-guidelines-card .btn {
+    display: flex;
+    width: 100%;
+    white-space: normal;
+    padding: 0.85rem 1rem;
+    font-size: 0.95rem;
+  }
+}
+
 /* ── Wholesale Section ──────────────────────────────────── */
 .wholesale-section {
   padding: var(--section-pad) 0;
